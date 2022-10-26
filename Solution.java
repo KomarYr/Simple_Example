@@ -16,8 +16,8 @@ public class Solution {
         long myNum4 = 9223372036854775807l;
         long myNum5 = 3l;
         System.out.println(myNum4 / myNum5);
-        double myNum6 = 3.14159265359d;
-        double myNum7 = 6.62607015d;
+        double myNum6 = 3.14159265359;
+        double myNum7 = 6.62607015;
         System.out.println(myNum7 % myNum6);
     }
 }
