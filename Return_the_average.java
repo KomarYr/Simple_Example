@@ -6,7 +6,7 @@ public class Return_the_average {
 
         int[] arr = {5,-9,7,1,-5,4,25,8};
 
-        int sumNum = 0, average = 0;
+        double sumNum = 0, average = 0;
         for (int i = 0; i < arr.length; i++) {
                 sumNum += arr[i];
                 average = sumNum / arr.length;
