@@ -10,9 +10,8 @@ public class ReverseOrder {
 
         for (i = 0; i < arr.length; i++) {
             sorting_Array(arr, arr.length);
-            System.out.println("Array after sorting:" + Arrays.toString(arr));
         }
-
+        System.out.println("Array after sorting:" + Arrays.toString(arr));
     }
 
     public static void sorting_Array(int[] arr, int x) {
