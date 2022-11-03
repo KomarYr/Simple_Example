@@ -9,12 +9,12 @@ public class ReverseOrder {
         System.out.println("Array before sorting:" + Arrays.toString(arr));
 
         for (i = 0; i < arr.length; i++) {
-            sorting_Array(arr, arr.length);
+            sortingArray(arr, arr.length);
         }
         System.out.println("Array after sorting:" + Arrays.toString(arr));
     }
 
-    public static void sorting_Array(int[] arr, int x) {
+    public static void sortingArray(int[] arr, int x) {
         for (int i = x - 1; i >= 0; i--) {
             int j = i;
             int y = arr[i];
